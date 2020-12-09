@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "63274739279",
+    "firebase_url": "https://care2u-62311.firebaseio.com",
+    "project_id": "care2u-62311",
+    "storage_bucket": "care2u-62311.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63274739279:android:01ca01c1a10464abea2c3a",
+        "android_client_info": {
+          "package_name": "com.example.care2u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63274739279-p89ldv2mda275f80to20ujqvq4b7g4cr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.care2u",
+            "certificate_hash": "0542419466d4ba3430cc34d72e529dbf3d4f3861"
+          }
+        },
+        {
+          "client_id": "63274739279-tr4fjfmbjmv8iajq81o4cv1kefnehgmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3IN7hBrC3-mC3lQV51G2M2B-WqWJIW74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63274739279-tr4fjfmbjmv8iajq81o4cv1kefnehgmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

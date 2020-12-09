@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/login">
+
+    <TextView
+        android:id="@+id/welcome_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="HEALTH CARE"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_logo"
+        android:layout_centerHorizontal="true"
+        android:text="We Care About Your Health"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/welcome_join_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Join Now"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:padding="20dp"
+        android:textSize="16dp"
+        android:layout_above="@+id/welcome_login_btn"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/welcome_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Already have an account? Login"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:padding="20dp"
+        android:textSize="16dp"
+        android:background="@drawable/button2"/>
+
+</RelativeLayout>
